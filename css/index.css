@@ -323,3 +323,32 @@ ul {
 }
 
 
+/* Media breakpoints */
+
+@media (max-width: 800px) {
+    header nav {
+        flex-flow: column-reverse;
+        align-items: center;
+    }
+
+    header .logo {
+        margin-bottom: 15%;
+    }
+
+    header .links {
+        justify-content: space-between;
+        width: 100%;
+    }
+
+    .introduction img {
+        display: none;
+    }
+    
+   .introduction {
+       justify-content: center;
+   }
+}
+
+@media (max-width: 500px) {
+
+}
